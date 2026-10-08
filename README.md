@@ -14,6 +14,7 @@ Main report, slides and speaker hints use simple academic English at A2–B1 lev
 - [PowerPoint with speaker notes](./presentation/Assignment_3_Presentation.pptx) and [slide PDF](./presentation/Assignment_3_Presentation.pdf)
 - [HTML presentation](./presentation/SUB-CHECK_Presentation.html)
 - [Printable speaker hints](./presentation/Speaker_Hints.html) and [speaker hints text](./presentation/Speaker_Hints.md)
+- [Customer development recordings and evidence archive (Google Drive)](https://drive.google.com/drive/folders/1_WXplLVUAfcX_pCm-q_9zBbkZQ7okbYh?usp=sharing)
 
 ## HTML presentation
 
@@ -37,12 +38,13 @@ Interest in the idea does not prove product quality or payment. We still need st
 
 ## Evidence
 
+- [Google Drive archive with full recordings and evidence](https://drive.google.com/drive/folders/1_WXplLVUAfcX_pCm-q_9zBbkZQ7okbYh?usp=sharing)
 - [Original survey screenshots](./evidence/screenshots/) and [evidence limits](./evidence/README.md)
 - [Interview notes with source times](./evidence/interview_notes/) and [recording hashes and lengths](./evidence/recordings_manifest.json)
 - [Survey option counts](./analysis/survey_aggregates.csv), [visible written answers](./analysis/open_feedback.csv) and [calculation method](./analysis/README.md)
 - [Original survey questions](./questionnaire/questionnaire.md), [future interview guide](./questionnaire/followup_interview_guide.md) and [sources](./sources/README.md)
 
-The screenshots show totals rather than individual answers. Questions have 20, 19 or 9 answers. Several questions allow more than one choice. Q14 repeats Q13, and Q19 repeats Q03. We do not add interview participants to the survey total because the groups may overlap. Original recordings stay in the local Interviews folder. Interview notes use clear statements from automatic transcription and include times for checking.
+The screenshots show totals rather than individual answers. Questions have 20, 19 or 9 answers. Several questions allow more than one choice. Q14 repeats Q13, and Q19 repeats Q03. We do not add interview participants to the survey total because the groups may overlap. Original audio and desktop video recordings are available in the [Google Drive folder](https://drive.google.com/drive/folders/1_WXplLVUAfcX_pCm-q_9zBbkZQ7okbYh?usp=sharing) and stay in the local Interviews folder. Interview notes use clear statements from automatic transcription and include times for checking.
 
 ## Course requirement still unmet
 
