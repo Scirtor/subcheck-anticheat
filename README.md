@@ -7,7 +7,7 @@
 
 ## Submission files
 
-Main report, slides and speaker hints use simple academic English at A2–B1 level. Technical terms have short explanations.
+Main report, slides and speaker hints use simple academic English at A2–B1 level. Technical terms have short explanations. The report uses Times New Roman, centred 16 pt headings and 14 pt body text. All text is black. Tables have white cells and black borders.
 
 - [Combined report and slides PDF](./SUB-CHECK_Assignment_3_Submission.pdf)
 - [Report PDF](./report/Assignment_3_Report.pdf), [Word report](./report/Assignment_3_Report.docx) and [report text](./report/Assignment_3_Report.md)
