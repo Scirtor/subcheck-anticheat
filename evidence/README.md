@@ -1,11 +1,7 @@
-# Interview Evidence & Screenshots
+# Research evidence
 
-This directory contains visual and auditory evidence supporting the Customer Development interviews conducted for **Assignment 3**:
+`screenshots/` contains the 27 original survey summaries. Q14 repeats Q13 and Q19 repeats Q03. They are evidence images, not 27 participants. Twenty participants are shown; some questions have 19 or 9 responses.
 
-## Structure
+`interview_notes/I01.md` through `I03.md` contain anonymised thematic notes and source timestamps. `recordings_manifest.json` lists recording durations, sizes and SHA-256 hashes. Original audio and desktop video remain in the sibling `Interviews` folder. They are not bundled in this public repository. The repository supports verification of the survey charts and interview summaries; reviewers need the original recordings to independently audit the spoken passages.
 
-- `screenshots/` — Screen captures of interview scheduling, Discord/Zoom calls, survey form distribution, and chat transcripts.
-- `interview_notes/` — In-depth transcripts and field notes from recorded video/voice sessions.
-
-## Privacy & Anonymization Note
-In compliance with research ethics and data protection standards, identifying personal information (full names, contact addresses, student IDs) has been anonymized (e.g. Respondent R01 to R32), while preserving authentic player quotes, gaming credentials, and organizational affiliations.
+No individual respondent export was supplied. Q26 has 9 answers with 8 visible, Q27 has 8 with 7 visible. Missing cards are not reconstructed. The current evidence remains below the assignment requirement of 30 online respondents or 5 face-to-face video interviews.

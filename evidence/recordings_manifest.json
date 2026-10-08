@@ -1,0 +1,26 @@
+[
+  {
+    "id": "I01",
+    "media": "audio",
+    "duration_seconds": 545.548813,
+    "size_bytes": 8901413,
+    "sha256": "c3e14a15a7d0bc5a9e05f03c5414727f28629410e9ce947397ff75d8e9141cc0",
+    "availability": "Original retained in sibling Interviews folder; not embedded in public repository"
+  },
+  {
+    "id": "I02",
+    "media": "audio",
+    "duration_seconds": 286.246188,
+    "size_bytes": 4671206,
+    "sha256": "dd51ccf82590458b07dd1b866a3d25f4db94338ab81c0c1f62154487eb8c702e",
+    "availability": "Original retained in sibling Interviews folder; not embedded in public repository"
+  },
+  {
+    "id": "I03",
+    "media": "desktop video recording",
+    "duration_seconds": 2337.866667,
+    "size_bytes": 1803713901,
+    "sha256": "1460d5c786263c254c5bb09811b0195644c116f7e7486530f877da9d672f125c",
+    "availability": "Original retained in sibling Interviews folder; not embedded in public repository"
+  }
+]

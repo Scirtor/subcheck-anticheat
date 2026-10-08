@@ -1,65 +1,227 @@
-# SUB-CHECK: Customer Development (CustDev) Questionnaire & Methodology
+# SUB-CHECK questionnaire evidenced by the survey screenshots
 
-**Project:** SUB-CHECK — Cloud-Based Behavioral Anti-Cheat Detection  
-**Course:** Technology Entrepreneurship — Assignment 3  
-**Authors:** Nurzhan Bekmurat, Azamat Yermukhan, Yernur Khuan  
+This is a transcription of the questions and answer categories visible in the supplied Google Forms summaries. IDs follow screenshot numbers. Multiple-selection types are inferred from counts exceeding the base. The full form introduction, scale anchors and routing settings are not available. Q14 repeats Q13 and Q19 repeats Q03 and are excluded from unique questions.
 
----
+## Q01 What best describes your role?
+Base: 20. Type: multiple. Evidence: `photo_1_2026-10-08_14-51-25.jpg`.
 
-## 1. Objectives of the Customer Development Study
+- Game developer
+- Software developer
+- Cybersecurity specialist/student
+- Competitive gamer
+- Casual gamer
+- Esports organizer/admin
 
-1. **Problem Validation:** Confirm the severity and frequency of cheating in competitive games, and assess dissatisfaction with existing anti-cheat systems (e.g., kernel-level access, performance degradation, privacy concerns, platform limitations).
-2. **Customer Jobs Identification:** Understand what players, server admins, and indie studios are trying to accomplish when dealing with game integrity.
-3. **Pain Points & Gain Drivers:** Uncover the exact pain points (false bans, privacy invasion, hardware cheat evasion like DMA/Cronus) and desired gains (seamless cross-platform play, transparent trust metrics).
-4. **Value Proposition Validation:** Test hypotheses surrounding server-side behavioral analytics, privacy-preserving telemetry, and risk-scoring mechanisms without leading the respondent.
+## Q02 How much experience do you have with multiplayer games?
+Base: 20. Type: single. Evidence: `photo_2_2026-10-08_14-51-25.jpg`.
 
----
+- Less than 1 year
+- 1–3 years
+- 3–5 years
+- More than 5 years
 
-## 2. Target Audience Segmentation & Prioritization
+## Q03 Have you ever developed, managed, moderated, or hosted a multiplayer game/server?
+Base: 20. Type: single. Evidence: `photo_3_2026-10-08_14-51-25.jpg`.
 
-| Segment | Description | Accessibility (1-5) | Market Volume (1-5) | Impact/Satisfaction (1-5) | Priority Rank |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| **Segment A: Competitive & Ranked Gamers** | Active players in ranked FPS/competitive games (CS2, Valorant, Apex, Rainbow Six). Concerned with fair play and intrusive software. | 5 (High - peers, Discord, Steam) | 5 (Massive - millions) | 4 (High demand for fair matches) | **P1 (Primary)** |
-| **Segment B: Community Admins & Tournament Hosts** | Organizers of collegiate, amateur, and semi-pro tournaments; Discord clan admins; FACEIT/Fastcup players. | 4 (Medium-High - gaming communities, universities) | 3 (Moderate) | 5 (Critical - direct liability for fair play) | **P2 (Secondary)** |
-| **Segment C: Indie & Mid-Tier Game Developers** | Small studios and solo developers building multiplayer games who cannot afford proprietary anti-cheat licenses. | 3 (Moderate - itch.io, Reddit /r/gamedev) | 3 (Niche but growing) | 5 (Extremely high - no viable current options) | **P3 (Strategic)** |
+- Yes
+- No
 
----
+## Q04 Which platforms do you use or develop for?
+Base: 20. Type: multiple. Evidence: `photo_4_2026-10-08_14-51-25.jpg`.
 
-## 3. CustDev Interview Rules & Best Practices
+- Windows
+- Linux
+- SteamOS / Steam Deck
+- macOS
+- Console
+- Mobile
+- I am not a developer
 
-- **Follow "The Mom Test" framework:** Ask about specific past behavior, not hypothetical future promises.
-- **Do not pitch the solution early:** Let the respondent describe their experiences, emotions, and workarounds first.
-- **Listen actively:** Avoid correcting or arguing with respondents. Keep questions neutral.
-- **Duration:** 15–20 minutes per in-depth interview or 5–7 minutes for structured written survey forms.
+## Q05 How serious do you think cheating is in competitive multiplayer games?
+Base: 19. Type: scale. Evidence: `photo_5_2026-10-08_14-51-25.jpg`.
 
----
+- 1
+- 2
+- 3
+- 4
+- 5
 
-## 4. Interview Script & Question Bank
+## Q06 How often have you personally encountered cheating in multiplayer games?
+Base: 20. Type: single. Evidence: `photo_6_2026-10-08_14-51-25.jpg`.
 
-### Part 1: Screener & Profile (1–2 minutes)
-1. What competitive multiplayer games do you play most frequently, and at what competitive level (casual, ranked, semi-pro, tournament)?
-2. How many hours per week do you spend playing or managing multiplayer game environments?
-3. What platforms/operating systems do you play on (Windows 10/11, Linux, SteamOS / Steam Deck, macOS)?
+- Frequently
+- Sometimes
+- Rarely
+- Never
+- Not sure
 
-### Part 2: Customer Jobs & Experience with Cheating (4–5 minutes)
-4. Tell me about the last time you encountered a cheater in a match. How did you identify it, and how did it affect your experience?
-5. How frequently do you feel you run into illegitimate players (aimbots, wallhacks, triggerbots, recoil scripts)?
-6. When you suspect someone of cheating, what actions do you take (in-game report, leave game, review replay, complain on forums)? How effective do those actions feel?
+## Q07 Which types of cheating do you consider the most problematic?
+Base: 20. Type: multiple. Evidence: `photo_7_2026-10-08_14-51-25.jpg`.
 
-### Part 3: Customer Pains — Current Anti-Cheat Frustrations (5–6 minutes)
-7. Which anti-cheat software do you currently have installed (e.g., Riot Vanguard, Easy Anti-Cheat, BattlEye, VAC)?
-8. What is your opinion on kernel-level (Ring 0) anti-cheat systems running on your personal computer?
-   - *Probing:* Have you experienced system crashes (BSOD), performance drops, boot issues, or privacy concerns?
-9. Have you or anyone you know ever been falsely flagged or temporarily banned by an anti-cheat system? How was the appeal handled?
-10. Have you heard of hardware cheats (DMA cards, mouse macros, Cronus Zen)? Do you feel existing anti-cheats can stop them?
+- Aimbots
+- Wallhacks
+- Macros/scripts
+- Hardware-assisted cheats
+- Bots
+- Exploits
 
-### Part 4: Customer Gains & Solution Hypotheses (4–5 minutes)
-11. If you could change one thing about how anti-cheat operates today, what would that be?
-12. If a game used a **server-side anti-cheat** that requires **zero software installation on your PC** and analyzes kinematic behavioral telemetry (e.g. mouse movement physics and reaction mechanics) instead of scanning your files:
-   - What would be your immediate reaction?
-   - What concerns, if any, would you have about such an approach?
-13. How important is it for you to play games on Linux, Steam Deck, or virtualized environments without being blocked by anti-cheat?
+## Q08 What do you think is the biggest problem with current anti-cheat systems?
+Base: 20. Type: single. Evidence: `photo_8_2026-10-08_14-51-25.jpg`.
 
-### Part 5: Wrap-up & Follow-up (1 minute)
-14. Is there anything else about game security or fair play that you think we should know?
-15. Would you be willing to test a prototype or review telemetry samples in a follow-up session?
+- False-positive bans
+- Performance impact
+- Privacy concerns
+- OS/platform incompatibility
+- Cheats bypassing anti-cheat
+- High development/integration cost
+- Difficult implementation
+
+## Q09 Which anti-cheat systems are you familiar with?
+Base: 20. Type: multiple. Evidence: `photo_9_2026-10-08_14-51-25.jpg`.
+
+- Easy Anti-Cheat
+- BattlEye
+- Riot Vanguard
+- VAC
+- FACEIT Anti-Cheat
+- Proprietary/custom anti-cheat
+- None
+- Punkbuster
+
+## Q10 How satisfied are you with existing anti-cheat solutions?
+Base: 19. Type: scale. Evidence: `photo_10_2026-10-08_14-51-25.jpg`.
+
+- 1
+- 2
+- 3
+- 4
+- 5
+
+## Q11 Would you be comfortable installing an anti-cheat system with kernel-level access to your computer?
+Base: 20. Type: single. Evidence: `photo_11_2026-10-08_14-51-25.jpg`.
+
+- Yes
+- Probably yes
+- Not sure
+- Probably no
+- No
+
+## Q12 Which concern about kernel-level anti-cheat is most important to you?
+Base: 20. Type: single. Evidence: `photo_12_2026-10-08_14-51-25.jpg`.
+
+- Privacy
+- Security vulnerabilities
+- System stability
+- Performance
+- OS compatibility
+- I have no concerns
+- idk
+
+## Q13 How useful do you think such a server-side anti-cheat system could be?
+Base: 20. Type: scale. Evidence: `photo_13_2026-10-08_14-51-25.jpg`.
+
+- 1
+- 2
+- 3
+- 4
+- 5
+
+## Q15 What do you consider the biggest advantage of this approach?
+Base: 20. Type: multiple. Evidence: `photo_15_2026-10-08_14-51-25.jpg`.
+
+- No kernel-level software
+- Better privacy
+- Cross-platform compatibility
+- Detection of hardware-assisted cheating
+- Easier integration
+- Risk scoring instead of immediate bans
+
+## Q16 What would be your biggest concern about SUB-CHECK?
+Base: 20. Type: multiple. Evidence: `photo_16_2026-10-08_14-51-25.jpg`.
+
+- False positives
+- Detection accuracy
+- Network/bandwidth overhead
+- Server costs
+- Privacy of telemetry
+- Integration complexity
+- Detection speed
+- Idk whats that
+
+## Q17 What should happen when the system detects suspicious behavior?
+Base: 20. Type: multiple. Evidence: `photo_17_2026-10-08_14-51-25.jpg`.
+
+- Immediate ban
+- Temporary restriction
+- Manual review
+- Shadow matchmaking / suspicious-player pool
+- Additional verification
+- Only record the risk score
+
+## Q18 Would you trust an anti-cheat more if suspicious players were reviewed before receiving a permanent ban?
+Base: 20. Type: single. Evidence: `photo_18_2026-10-08_14-51-25.jpg`.
+
+- Yes
+- Probably yes
+- Not sure
+- Probably no
+- No
+
+## Q20 How difficult is it for a small game studio to implement an effective anti-cheat solution?
+Base: 9. Type: scale. Evidence: `photo_20_2026-10-08_14-51-25.jpg`.
+
+- 1
+- 2
+- 3
+- 4
+- 5
+
+## Q21 Which integration method would you prefer?
+Base: 9. Type: multiple. Evidence: `photo_21_2026-10-08_14-51-25.jpg`.
+
+- REST API
+- SDK
+- Game engine plugin
+- Self-hosted solution
+- Managed cloud service
+- Not sure
+
+## Q22 Which game engine integration would be most important to you?
+Base: 9. Type: single. Evidence: `photo_22_2026-10-08_14-51-25.jpg`.
+
+- Unity
+- Unreal Engine
+- Godot
+- Custom engine
+- source 2, tank engine lol
+
+## Q23 Would you be willing to send anonymized gameplay telemetry to an external anti-cheat service?
+Base: 9. Type: single. Evidence: `photo_23_2026-10-08_14-51-25.jpg`.
+
+- Yes
+- Yes, with strict privacy controls
+- Only if self-hosted
+- Not sure
+- No
+
+## Q24 Which pricing model would be most acceptable for an anti-cheat service?
+Base: 20. Type: multiple. Evidence: `photo_24_2026-10-08_14-51-25.jpg`.
+
+- Fixed monthly subscription
+- Pay per active player
+- Pay per analyzed match/session
+- Tiered subscription based on player count
+- Free/open-source core + paid cloud service
+
+## Q25 Would a free tier make you more likely to test a new anti-cheat solution?
+Base: 20. Type: single. Evidence: `photo_25_2026-10-08_14-51-25.jpg`.
+
+- Yes
+- Maybe
+- No
+
+## Q26 What would convince you to adopt a new anti-cheat solution?
+Open response. 9 answers reported, 8 visible. See `analysis/open_feedback.csv`.
+
+## Q27 Is there anything about cheating or anti-cheat systems that we did not ask about but you consider important?
+Open response. 8 answers reported, 7 visible. See `analysis/open_feedback.csv`.

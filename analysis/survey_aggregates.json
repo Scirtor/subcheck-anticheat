@@ -1,0 +1,1136 @@
+[
+  {
+    "question_id": "Q01",
+    "question": "What best describes your role?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Game developer",
+    "count": 2,
+    "source": "photo_1_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q01",
+    "question": "What best describes your role?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Software developer",
+    "count": 7,
+    "source": "photo_1_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q01",
+    "question": "What best describes your role?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Cybersecurity specialist/student",
+    "count": 10,
+    "source": "photo_1_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q01",
+    "question": "What best describes your role?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Competitive gamer",
+    "count": 3,
+    "source": "photo_1_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q01",
+    "question": "What best describes your role?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Casual gamer",
+    "count": 7,
+    "source": "photo_1_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q01",
+    "question": "What best describes your role?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Esports organizer/admin",
+    "count": 0,
+    "source": "photo_1_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q02",
+    "question": "How much experience do you have with multiplayer games?",
+    "n": 20,
+    "type": "single",
+    "option": "Less than 1 year",
+    "count": 0,
+    "source": "photo_2_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q02",
+    "question": "How much experience do you have with multiplayer games?",
+    "n": 20,
+    "type": "single",
+    "option": "1–3 years",
+    "count": 4,
+    "source": "photo_2_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q02",
+    "question": "How much experience do you have with multiplayer games?",
+    "n": 20,
+    "type": "single",
+    "option": "3–5 years",
+    "count": 1,
+    "source": "photo_2_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q02",
+    "question": "How much experience do you have with multiplayer games?",
+    "n": 20,
+    "type": "single",
+    "option": "More than 5 years",
+    "count": 15,
+    "source": "photo_2_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q03",
+    "question": "Have you ever developed, managed, moderated, or hosted a multiplayer game/server?",
+    "n": 20,
+    "type": "single",
+    "option": "Yes",
+    "count": 9,
+    "source": "photo_3_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q03",
+    "question": "Have you ever developed, managed, moderated, or hosted a multiplayer game/server?",
+    "n": 20,
+    "type": "single",
+    "option": "No",
+    "count": 11,
+    "source": "photo_3_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q04",
+    "question": "Which platforms do you use or develop for?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Windows",
+    "count": 17,
+    "source": "photo_4_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q04",
+    "question": "Which platforms do you use or develop for?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Linux",
+    "count": 5,
+    "source": "photo_4_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q04",
+    "question": "Which platforms do you use or develop for?",
+    "n": 20,
+    "type": "multiple",
+    "option": "SteamOS / Steam Deck",
+    "count": 4,
+    "source": "photo_4_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q04",
+    "question": "Which platforms do you use or develop for?",
+    "n": 20,
+    "type": "multiple",
+    "option": "macOS",
+    "count": 2,
+    "source": "photo_4_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q04",
+    "question": "Which platforms do you use or develop for?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Console",
+    "count": 1,
+    "source": "photo_4_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q04",
+    "question": "Which platforms do you use or develop for?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Mobile",
+    "count": 3,
+    "source": "photo_4_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q04",
+    "question": "Which platforms do you use or develop for?",
+    "n": 20,
+    "type": "multiple",
+    "option": "I am not a developer",
+    "count": 1,
+    "source": "photo_4_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q05",
+    "question": "How serious do you think cheating is in competitive multiplayer games?",
+    "n": 19,
+    "type": "scale",
+    "option": "1",
+    "count": 0,
+    "source": "photo_5_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q05",
+    "question": "How serious do you think cheating is in competitive multiplayer games?",
+    "n": 19,
+    "type": "scale",
+    "option": "2",
+    "count": 0,
+    "source": "photo_5_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q05",
+    "question": "How serious do you think cheating is in competitive multiplayer games?",
+    "n": 19,
+    "type": "scale",
+    "option": "3",
+    "count": 2,
+    "source": "photo_5_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q05",
+    "question": "How serious do you think cheating is in competitive multiplayer games?",
+    "n": 19,
+    "type": "scale",
+    "option": "4",
+    "count": 7,
+    "source": "photo_5_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q05",
+    "question": "How serious do you think cheating is in competitive multiplayer games?",
+    "n": 19,
+    "type": "scale",
+    "option": "5",
+    "count": 10,
+    "source": "photo_5_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q06",
+    "question": "How often have you personally encountered cheating in multiplayer games?",
+    "n": 20,
+    "type": "single",
+    "option": "Frequently",
+    "count": 4,
+    "source": "photo_6_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q06",
+    "question": "How often have you personally encountered cheating in multiplayer games?",
+    "n": 20,
+    "type": "single",
+    "option": "Sometimes",
+    "count": 10,
+    "source": "photo_6_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q06",
+    "question": "How often have you personally encountered cheating in multiplayer games?",
+    "n": 20,
+    "type": "single",
+    "option": "Rarely",
+    "count": 4,
+    "source": "photo_6_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q06",
+    "question": "How often have you personally encountered cheating in multiplayer games?",
+    "n": 20,
+    "type": "single",
+    "option": "Never",
+    "count": 1,
+    "source": "photo_6_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q06",
+    "question": "How often have you personally encountered cheating in multiplayer games?",
+    "n": 20,
+    "type": "single",
+    "option": "Not sure",
+    "count": 1,
+    "source": "photo_6_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q07",
+    "question": "Which types of cheating do you consider the most problematic?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Aimbots",
+    "count": 14,
+    "source": "photo_7_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q07",
+    "question": "Which types of cheating do you consider the most problematic?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Wallhacks",
+    "count": 15,
+    "source": "photo_7_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q07",
+    "question": "Which types of cheating do you consider the most problematic?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Macros/scripts",
+    "count": 9,
+    "source": "photo_7_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q07",
+    "question": "Which types of cheating do you consider the most problematic?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Hardware-assisted cheats",
+    "count": 7,
+    "source": "photo_7_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q07",
+    "question": "Which types of cheating do you consider the most problematic?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Bots",
+    "count": 10,
+    "source": "photo_7_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q07",
+    "question": "Which types of cheating do you consider the most problematic?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Exploits",
+    "count": 9,
+    "source": "photo_7_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q08",
+    "question": "What do you think is the biggest problem with current anti-cheat systems?",
+    "n": 20,
+    "type": "single",
+    "option": "False-positive bans",
+    "count": 4,
+    "source": "photo_8_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q08",
+    "question": "What do you think is the biggest problem with current anti-cheat systems?",
+    "n": 20,
+    "type": "single",
+    "option": "Performance impact",
+    "count": 0,
+    "source": "photo_8_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q08",
+    "question": "What do you think is the biggest problem with current anti-cheat systems?",
+    "n": 20,
+    "type": "single",
+    "option": "Privacy concerns",
+    "count": 3,
+    "source": "photo_8_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q08",
+    "question": "What do you think is the biggest problem with current anti-cheat systems?",
+    "n": 20,
+    "type": "single",
+    "option": "OS/platform incompatibility",
+    "count": 2,
+    "source": "photo_8_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q08",
+    "question": "What do you think is the biggest problem with current anti-cheat systems?",
+    "n": 20,
+    "type": "single",
+    "option": "Cheats bypassing anti-cheat",
+    "count": 9,
+    "source": "photo_8_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q08",
+    "question": "What do you think is the biggest problem with current anti-cheat systems?",
+    "n": 20,
+    "type": "single",
+    "option": "High development/integration cost",
+    "count": 1,
+    "source": "photo_8_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q08",
+    "question": "What do you think is the biggest problem with current anti-cheat systems?",
+    "n": 20,
+    "type": "single",
+    "option": "Difficult implementation",
+    "count": 1,
+    "source": "photo_8_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q09",
+    "question": "Which anti-cheat systems are you familiar with?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Easy Anti-Cheat",
+    "count": 12,
+    "source": "photo_9_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q09",
+    "question": "Which anti-cheat systems are you familiar with?",
+    "n": 20,
+    "type": "multiple",
+    "option": "BattlEye",
+    "count": 7,
+    "source": "photo_9_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q09",
+    "question": "Which anti-cheat systems are you familiar with?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Riot Vanguard",
+    "count": 9,
+    "source": "photo_9_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q09",
+    "question": "Which anti-cheat systems are you familiar with?",
+    "n": 20,
+    "type": "multiple",
+    "option": "VAC",
+    "count": 15,
+    "source": "photo_9_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q09",
+    "question": "Which anti-cheat systems are you familiar with?",
+    "n": 20,
+    "type": "multiple",
+    "option": "FACEIT Anti-Cheat",
+    "count": 14,
+    "source": "photo_9_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q09",
+    "question": "Which anti-cheat systems are you familiar with?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Proprietary/custom anti-cheat",
+    "count": 2,
+    "source": "photo_9_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q09",
+    "question": "Which anti-cheat systems are you familiar with?",
+    "n": 20,
+    "type": "multiple",
+    "option": "None",
+    "count": 2,
+    "source": "photo_9_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q09",
+    "question": "Which anti-cheat systems are you familiar with?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Punkbuster",
+    "count": 1,
+    "source": "photo_9_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q10",
+    "question": "How satisfied are you with existing anti-cheat solutions?",
+    "n": 19,
+    "type": "scale",
+    "option": "1",
+    "count": 1,
+    "source": "photo_10_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q10",
+    "question": "How satisfied are you with existing anti-cheat solutions?",
+    "n": 19,
+    "type": "scale",
+    "option": "2",
+    "count": 5,
+    "source": "photo_10_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q10",
+    "question": "How satisfied are you with existing anti-cheat solutions?",
+    "n": 19,
+    "type": "scale",
+    "option": "3",
+    "count": 8,
+    "source": "photo_10_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q10",
+    "question": "How satisfied are you with existing anti-cheat solutions?",
+    "n": 19,
+    "type": "scale",
+    "option": "4",
+    "count": 4,
+    "source": "photo_10_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q10",
+    "question": "How satisfied are you with existing anti-cheat solutions?",
+    "n": 19,
+    "type": "scale",
+    "option": "5",
+    "count": 1,
+    "source": "photo_10_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q11",
+    "question": "Would you be comfortable installing an anti-cheat system with kernel-level access to your computer?",
+    "n": 20,
+    "type": "single",
+    "option": "Yes",
+    "count": 1,
+    "source": "photo_11_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q11",
+    "question": "Would you be comfortable installing an anti-cheat system with kernel-level access to your computer?",
+    "n": 20,
+    "type": "single",
+    "option": "Probably yes",
+    "count": 5,
+    "source": "photo_11_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q11",
+    "question": "Would you be comfortable installing an anti-cheat system with kernel-level access to your computer?",
+    "n": 20,
+    "type": "single",
+    "option": "Not sure",
+    "count": 6,
+    "source": "photo_11_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q11",
+    "question": "Would you be comfortable installing an anti-cheat system with kernel-level access to your computer?",
+    "n": 20,
+    "type": "single",
+    "option": "Probably no",
+    "count": 3,
+    "source": "photo_11_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q11",
+    "question": "Would you be comfortable installing an anti-cheat system with kernel-level access to your computer?",
+    "n": 20,
+    "type": "single",
+    "option": "No",
+    "count": 5,
+    "source": "photo_11_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q12",
+    "question": "Which concern about kernel-level anti-cheat is most important to you?",
+    "n": 20,
+    "type": "single",
+    "option": "Privacy",
+    "count": 7,
+    "source": "photo_12_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q12",
+    "question": "Which concern about kernel-level anti-cheat is most important to you?",
+    "n": 20,
+    "type": "single",
+    "option": "Security vulnerabilities",
+    "count": 9,
+    "source": "photo_12_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q12",
+    "question": "Which concern about kernel-level anti-cheat is most important to you?",
+    "n": 20,
+    "type": "single",
+    "option": "System stability",
+    "count": 2,
+    "source": "photo_12_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q12",
+    "question": "Which concern about kernel-level anti-cheat is most important to you?",
+    "n": 20,
+    "type": "single",
+    "option": "Performance",
+    "count": 0,
+    "source": "photo_12_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q12",
+    "question": "Which concern about kernel-level anti-cheat is most important to you?",
+    "n": 20,
+    "type": "single",
+    "option": "OS compatibility",
+    "count": 1,
+    "source": "photo_12_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q12",
+    "question": "Which concern about kernel-level anti-cheat is most important to you?",
+    "n": 20,
+    "type": "single",
+    "option": "I have no concerns",
+    "count": 0,
+    "source": "photo_12_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q12",
+    "question": "Which concern about kernel-level anti-cheat is most important to you?",
+    "n": 20,
+    "type": "single",
+    "option": "idk",
+    "count": 1,
+    "source": "photo_12_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q13",
+    "question": "How useful do you think such a server-side anti-cheat system could be?",
+    "n": 20,
+    "type": "scale",
+    "option": "1",
+    "count": 0,
+    "source": "photo_13_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q13",
+    "question": "How useful do you think such a server-side anti-cheat system could be?",
+    "n": 20,
+    "type": "scale",
+    "option": "2",
+    "count": 0,
+    "source": "photo_13_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q13",
+    "question": "How useful do you think such a server-side anti-cheat system could be?",
+    "n": 20,
+    "type": "scale",
+    "option": "3",
+    "count": 4,
+    "source": "photo_13_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q13",
+    "question": "How useful do you think such a server-side anti-cheat system could be?",
+    "n": 20,
+    "type": "scale",
+    "option": "4",
+    "count": 8,
+    "source": "photo_13_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q13",
+    "question": "How useful do you think such a server-side anti-cheat system could be?",
+    "n": 20,
+    "type": "scale",
+    "option": "5",
+    "count": 8,
+    "source": "photo_13_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q15",
+    "question": "What do you consider the biggest advantage of this approach?",
+    "n": 20,
+    "type": "multiple",
+    "option": "No kernel-level software",
+    "count": 12,
+    "source": "photo_15_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q15",
+    "question": "What do you consider the biggest advantage of this approach?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Better privacy",
+    "count": 11,
+    "source": "photo_15_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q15",
+    "question": "What do you consider the biggest advantage of this approach?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Cross-platform compatibility",
+    "count": 7,
+    "source": "photo_15_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q15",
+    "question": "What do you consider the biggest advantage of this approach?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Detection of hardware-assisted cheating",
+    "count": 10,
+    "source": "photo_15_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q15",
+    "question": "What do you consider the biggest advantage of this approach?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Easier integration",
+    "count": 6,
+    "source": "photo_15_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q15",
+    "question": "What do you consider the biggest advantage of this approach?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Risk scoring instead of immediate bans",
+    "count": 5,
+    "source": "photo_15_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q16",
+    "question": "What would be your biggest concern about SUB-CHECK?",
+    "n": 20,
+    "type": "multiple",
+    "option": "False positives",
+    "count": 9,
+    "source": "photo_16_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q16",
+    "question": "What would be your biggest concern about SUB-CHECK?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Detection accuracy",
+    "count": 11,
+    "source": "photo_16_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q16",
+    "question": "What would be your biggest concern about SUB-CHECK?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Network/bandwidth overhead",
+    "count": 4,
+    "source": "photo_16_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q16",
+    "question": "What would be your biggest concern about SUB-CHECK?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Server costs",
+    "count": 7,
+    "source": "photo_16_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q16",
+    "question": "What would be your biggest concern about SUB-CHECK?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Privacy of telemetry",
+    "count": 9,
+    "source": "photo_16_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q16",
+    "question": "What would be your biggest concern about SUB-CHECK?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Integration complexity",
+    "count": 4,
+    "source": "photo_16_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q16",
+    "question": "What would be your biggest concern about SUB-CHECK?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Detection speed",
+    "count": 4,
+    "source": "photo_16_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q16",
+    "question": "What would be your biggest concern about SUB-CHECK?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Idk whats that",
+    "count": 1,
+    "source": "photo_16_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q17",
+    "question": "What should happen when the system detects suspicious behavior?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Immediate ban",
+    "count": 7,
+    "source": "photo_17_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q17",
+    "question": "What should happen when the system detects suspicious behavior?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Temporary restriction",
+    "count": 8,
+    "source": "photo_17_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q17",
+    "question": "What should happen when the system detects suspicious behavior?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Manual review",
+    "count": 12,
+    "source": "photo_17_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q17",
+    "question": "What should happen when the system detects suspicious behavior?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Shadow matchmaking / suspicious-player pool",
+    "count": 7,
+    "source": "photo_17_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q17",
+    "question": "What should happen when the system detects suspicious behavior?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Additional verification",
+    "count": 12,
+    "source": "photo_17_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q17",
+    "question": "What should happen when the system detects suspicious behavior?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Only record the risk score",
+    "count": 1,
+    "source": "photo_17_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q18",
+    "question": "Would you trust an anti-cheat more if suspicious players were reviewed before receiving a permanent ban?",
+    "n": 20,
+    "type": "single",
+    "option": "Yes",
+    "count": 11,
+    "source": "photo_18_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q18",
+    "question": "Would you trust an anti-cheat more if suspicious players were reviewed before receiving a permanent ban?",
+    "n": 20,
+    "type": "single",
+    "option": "Probably yes",
+    "count": 9,
+    "source": "photo_18_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q18",
+    "question": "Would you trust an anti-cheat more if suspicious players were reviewed before receiving a permanent ban?",
+    "n": 20,
+    "type": "single",
+    "option": "Not sure",
+    "count": 0,
+    "source": "photo_18_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q18",
+    "question": "Would you trust an anti-cheat more if suspicious players were reviewed before receiving a permanent ban?",
+    "n": 20,
+    "type": "single",
+    "option": "Probably no",
+    "count": 0,
+    "source": "photo_18_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q18",
+    "question": "Would you trust an anti-cheat more if suspicious players were reviewed before receiving a permanent ban?",
+    "n": 20,
+    "type": "single",
+    "option": "No",
+    "count": 0,
+    "source": "photo_18_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q20",
+    "question": "How difficult is it for a small game studio to implement an effective anti-cheat solution?",
+    "n": 9,
+    "type": "scale",
+    "option": "1",
+    "count": 0,
+    "source": "photo_20_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q20",
+    "question": "How difficult is it for a small game studio to implement an effective anti-cheat solution?",
+    "n": 9,
+    "type": "scale",
+    "option": "2",
+    "count": 0,
+    "source": "photo_20_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q20",
+    "question": "How difficult is it for a small game studio to implement an effective anti-cheat solution?",
+    "n": 9,
+    "type": "scale",
+    "option": "3",
+    "count": 2,
+    "source": "photo_20_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q20",
+    "question": "How difficult is it for a small game studio to implement an effective anti-cheat solution?",
+    "n": 9,
+    "type": "scale",
+    "option": "4",
+    "count": 5,
+    "source": "photo_20_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q20",
+    "question": "How difficult is it for a small game studio to implement an effective anti-cheat solution?",
+    "n": 9,
+    "type": "scale",
+    "option": "5",
+    "count": 2,
+    "source": "photo_20_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q21",
+    "question": "Which integration method would you prefer?",
+    "n": 9,
+    "type": "multiple",
+    "option": "REST API",
+    "count": 4,
+    "source": "photo_21_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q21",
+    "question": "Which integration method would you prefer?",
+    "n": 9,
+    "type": "multiple",
+    "option": "SDK",
+    "count": 4,
+    "source": "photo_21_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q21",
+    "question": "Which integration method would you prefer?",
+    "n": 9,
+    "type": "multiple",
+    "option": "Game engine plugin",
+    "count": 4,
+    "source": "photo_21_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q21",
+    "question": "Which integration method would you prefer?",
+    "n": 9,
+    "type": "multiple",
+    "option": "Self-hosted solution",
+    "count": 6,
+    "source": "photo_21_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q21",
+    "question": "Which integration method would you prefer?",
+    "n": 9,
+    "type": "multiple",
+    "option": "Managed cloud service",
+    "count": 3,
+    "source": "photo_21_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q21",
+    "question": "Which integration method would you prefer?",
+    "n": 9,
+    "type": "multiple",
+    "option": "Not sure",
+    "count": 1,
+    "source": "photo_21_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q22",
+    "question": "Which game engine integration would be most important to you?",
+    "n": 9,
+    "type": "single",
+    "option": "Unity",
+    "count": 2,
+    "source": "photo_22_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q22",
+    "question": "Which game engine integration would be most important to you?",
+    "n": 9,
+    "type": "single",
+    "option": "Unreal Engine",
+    "count": 4,
+    "source": "photo_22_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q22",
+    "question": "Which game engine integration would be most important to you?",
+    "n": 9,
+    "type": "single",
+    "option": "Godot",
+    "count": 1,
+    "source": "photo_22_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q22",
+    "question": "Which game engine integration would be most important to you?",
+    "n": 9,
+    "type": "single",
+    "option": "Custom engine",
+    "count": 1,
+    "source": "photo_22_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q22",
+    "question": "Which game engine integration would be most important to you?",
+    "n": 9,
+    "type": "single",
+    "option": "source 2, tank engine lol",
+    "count": 1,
+    "source": "photo_22_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q23",
+    "question": "Would you be willing to send anonymized gameplay telemetry to an external anti-cheat service?",
+    "n": 9,
+    "type": "single",
+    "option": "Yes",
+    "count": 3,
+    "source": "photo_23_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q23",
+    "question": "Would you be willing to send anonymized gameplay telemetry to an external anti-cheat service?",
+    "n": 9,
+    "type": "single",
+    "option": "Yes, with strict privacy controls",
+    "count": 5,
+    "source": "photo_23_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q23",
+    "question": "Would you be willing to send anonymized gameplay telemetry to an external anti-cheat service?",
+    "n": 9,
+    "type": "single",
+    "option": "Only if self-hosted",
+    "count": 0,
+    "source": "photo_23_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q23",
+    "question": "Would you be willing to send anonymized gameplay telemetry to an external anti-cheat service?",
+    "n": 9,
+    "type": "single",
+    "option": "Not sure",
+    "count": 1,
+    "source": "photo_23_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q23",
+    "question": "Would you be willing to send anonymized gameplay telemetry to an external anti-cheat service?",
+    "n": 9,
+    "type": "single",
+    "option": "No",
+    "count": 0,
+    "source": "photo_23_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q24",
+    "question": "Which pricing model would be most acceptable for an anti-cheat service?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Fixed monthly subscription",
+    "count": 8,
+    "source": "photo_24_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q24",
+    "question": "Which pricing model would be most acceptable for an anti-cheat service?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Pay per active player",
+    "count": 6,
+    "source": "photo_24_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q24",
+    "question": "Which pricing model would be most acceptable for an anti-cheat service?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Pay per analyzed match/session",
+    "count": 6,
+    "source": "photo_24_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q24",
+    "question": "Which pricing model would be most acceptable for an anti-cheat service?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Tiered subscription based on player count",
+    "count": 4,
+    "source": "photo_24_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q24",
+    "question": "Which pricing model would be most acceptable for an anti-cheat service?",
+    "n": 20,
+    "type": "multiple",
+    "option": "Free/open-source core + paid cloud service",
+    "count": 12,
+    "source": "photo_24_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q25",
+    "question": "Would a free tier make you more likely to test a new anti-cheat solution?",
+    "n": 20,
+    "type": "single",
+    "option": "Yes",
+    "count": 15,
+    "source": "photo_25_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q25",
+    "question": "Would a free tier make you more likely to test a new anti-cheat solution?",
+    "n": 20,
+    "type": "single",
+    "option": "Maybe",
+    "count": 5,
+    "source": "photo_25_2026-10-08_14-51-25.jpg"
+  },
+  {
+    "question_id": "Q25",
+    "question": "Would a free tier make you more likely to test a new anti-cheat solution?",
+    "n": 20,
+    "type": "single",
+    "option": "No",
+    "count": 0,
+    "source": "photo_25_2026-10-08_14-51-25.jpg"
+  }
+]
