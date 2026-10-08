@@ -1,252 +1,254 @@
 # SUB CHECK Customer Development
 
-Technology Entrepreneurship • Assignment 3 • Group CS-2406
+Technology Entrepreneurship Assignment 3. Group CS-2406.
 
-Nurzhan Bekmurat, Azamat Yermukhan, Yernur Khuan
+Nurzhan Bekmurat, Azamat Yermukhan, Yernur Khuan. 8 October 2026.
 
-8 October 2026
+## Study summary
 
-## Executive summary
+SUB-CHECK is a proposed service for small studios that run competitive shooter games. It would study aiming behaviour using data from game servers. It would give moderators a risk score and examples of suspicious events. Moderators would review these cases with their current anti-cheat tools.
 
-SUB-CHECK is a proposed B2B service for independent and AA studios operating competitive shooters. It would analyse aiming behaviour from authoritative game servers, return a risk score with supporting events, and help moderators review suspicious cases alongside existing anti-cheat tools.
+The study shows early interest in this idea. Seventeen of 19 survey participants rated the cheating problem at 4 or 5 out of 5. Sixteen of 20 rated the usefulness of the idea at 4 or 5. However, participants also raised concerns about accuracy, wrong alerts and data privacy. We therefore propose a small pilot study. We have not yet proved that the product works or that studios will buy it.
 
-Our customer development study provides an early signal of a relevant problem and interest in the concept. In the survey, 17 of 19 participants rated cheating seriousness at 4 or 5, and 16 of 20 rated the proposed server-side system’s usefulness at 4 or 5. Respondents nevertheless highlighted detection accuracy, false positives and telemetry privacy. These findings support a controlled pilot, rather than a claim of proven demand or technical effectiveness.
+We keep studios as customers and moderators as users. The updated plan adds control over game data and a choice of where to run the service. We also propose a limited free pilot. Six of nine people in the technical section selected self-hosting. This means running the service on their own servers. Twelve of 20 selected a free or open-source core with paid cloud services. These answers do not show how much a studio will pay.
 
-The updated idea retains a studio customer and human enforcement decisions. It adds a self-hosted option for evaluation, explicit telemetry controls, a free pilot and evidence about detection quality. Deployment preferences in the technical section favour self-hosting (6 of 9). Pricing responses favour a free or open-source core with paid cloud services (12 of 20), but this mixed audience does not establish a studio budget or willingness to pay.
-
-## Research scope
+## Available evidence
 
 | Evidence | Available material |
 | --- | --- |
-| Online survey | 20 participants shown in Google Forms summaries; 27 screenshots, including 2 repeats |
-| Recorded interviews | 3 supplied recordings; analysed separately from survey totals |
-| Question-specific bases | 19 for seriousness and satisfaction; 9 for technical questions; otherwise 20 |
-| Assignment minimum | 30 online respondents OR 5 face-to-face recorded video interviews. The current evidence is below both thresholds. |
+| Survey | 20 participants. We received 27 Google Forms screenshots, including two repeated charts. |
+| Interviews | Three recordings. We analyse them separately from the survey. |
+| Answers per question | Most questions: 20. Seriousness and satisfaction: 19. Technical questions: 9. |
+| Course minimum | 30 online participants OR 5 face-to-face video interviews. Our material is below both minimums. |
 
-We do not add interview participants to the survey total because overlap is unknown. The results describe this sample and guide the next experiments. They do not estimate the wider gaming market.
+We do not add the interview participants to the survey total. We do not know if the same people took part in both. These results describe our sample. They do not describe the whole gaming market.
 
-# Audience and interview preparation
+## Main terms
 
-## Segmentation and priority
+B2B means selling to another business. Telemetry means game data sent for analysis. A false positive is a wrong alert about a fair player. A risk score helps a moderator choose which case to review first. It is not proof of cheating.
 
-We distinguish the buyer, the operational user and the player affected by enforcement. The scoring below is a team judgement for recruitment planning, on a 1–5 scale. Volume scores are relative estimates, not measured market sizes. Buyer relevance takes precedence when choosing the next interviews.
+# Audience and research preparation
 
-| Segment | Access | Volume | Benefit | Priority |
+## Customer groups
+
+We separate the person who buys the service, the person who uses it, and the player. The table gives our planning scores from 1 to 5. A higher score means easier access, a larger expected group, or more expected benefit. These scores are team estimates. We have not measured market size.
+
+| Group | Access | Size | Benefit | Priority |
 | --- | --- | --- | --- | --- |
-| Indie or AA shooter studio leads | 3 | 3 | 5 | 1 for purchase validation |
-| Server moderators and tournament administrators | 4 | 3 | 5 | 2 for workflow validation |
-| Active competitive players | 5 | 5 | 4 | 1 for accessible problem discovery |
+| Small and medium shooter studio leads | 3 | 3 | 5 | First for buying decisions |
+| Server moderators and tournament admins | 4 | 3 | 5 | Second for review needs |
+| Active competitive players | 5 | 5 | 4 | First for easy problem research |
 
-The reachable survey sample differs from this intended market. Roles are multiple selection: 10 of 20 selected cybersecurity specialist/student, 7 software developer, 7 casual gamer, 3 competitive gamer, 2 game developer, and none esports organiser/admin. Nine reported experience developing, managing, moderating or hosting a multiplayer game/server. Those nine are a technical-experience subgroup, not nine confirmed studio buyers.
+The survey sample differs from our target customers. Participants could select several roles. Ten of 20 selected cybersecurity specialist or student. Seven selected software developer, seven casual gamer, three competitive gamer, and two game developer. No one selected esports organiser or admin. Nine reported multiplayer game or server experience. We call them the technical group. We cannot treat all nine as studio buyers.
 
-## Research objectives and question design
+## Research aims
 
-Our objectives were to identify customer jobs, pains and desired gains, test reactions to server-side risk scoring, and explore integration and business-model preferences. The questionnaire separates respondent background, cheating experiences, existing solutions, kernel access, the SUB-CHECK concept, risk scoring, technical integration, pricing and final feedback.
+We studied cheating problems, current tools and reactions to SUB-CHECK. We also asked about data sharing, integration and pricing. The questionnaire covers background, cheating experience, current anti-cheat, kernel access, the new idea, risk scores, technical needs and final comments.
 
-Problem questions ask about actual cheating encounters and experience managing games. Concept, trust and pricing questions capture stated preferences after presenting the idea. They are useful for prioritisation but can encourage agreeable answers and do not demonstrate behaviour, purchasing intent or technical results.
+Questions about past cheating give examples of experience. Questions about the proposed idea give opinions. Positive opinions can help us choose the next test. They do not prove a buying decision or product quality. Showing the idea before asking about it may lead to more positive answers.
 
-## Interview guide and recruitment plan
+## Plan for the next interviews
 
-For follow-up interviews, ask everyone about the same core topics before describing SUB-CHECK: their role and recent game; the last suspected cheating incident; what they did; time spent reviewing or appealing; the current tools and their shortcomings; and what outcome would improve their work. Ask technical leads about a recent integration, its effort, data restrictions and actual budget authority. Only then show the concept and ask what evidence would justify a pilot.
+Ask about the same main topics before showing SUB-CHECK. Start with the person’s role and their recent game. Ask about the last suspected cheating case. Ask what they did, how long review took, and what was difficult. Ask studio leads about a recent integration, data rules and who controls the budget. Then show the idea and ask what evidence they need for a pilot.
 
-Recruit studio leads through existing developer contacts and small multiplayer communities, moderators through server communities, and competitive players through peers. These are proposed channels, not a record of how the existing respondents were recruited. Record permission, role, duration and the source reference. Aim for 15–30 minutes, with neutral probes, no argument and no sales pitch.
+We propose contacting studios through developer contacts and small multiplayer communities. We propose finding moderators through server communities and players through peers. These are future channels. The supplied material does not record the actual survey recruitment channels. Ask permission to record, note the role and source, and allow 15–30 minutes. Use neutral questions and avoid a sales pitch.
 
-# Cheating problems and existing alternatives
+# Cheating problems and current tools
 
-## Observed problem
+## Survey findings
 
-| Question and base | Result | Interpretation |
+| Question and answers | Result | Meaning |
 | --- | --- | --- |
-| Cheating seriousness, n=19 | 17 rated 4–5 (89.5%); mean 4.42/5 | Strong perceived problem in this sample |
-| Encounter frequency, n=20 | 4 frequently, 10 sometimes (70% combined) | Past experience supports relevance |
-| Existing solution satisfaction, n=19 | 6 rated 1–2; 8 rated 3; 5 rated 4–5; mean 2.95/5 | Moderate satisfaction, not universal rejection |
-| Biggest current problem, n=20 | 9 bypasses (45%); 4 false bans (20%); 3 privacy (15%) | Effectiveness and fair enforcement both matter |
+| Cheating seriousness, n=19 | 17 rated 4–5 (89.5%). Average: 4.42/5. | Most people in this sample see a serious problem. |
+| Cheating frequency, n=20 | 4 often and 10 sometimes (70% together). | Many participants have met cheating. |
+| Satisfaction with current tools, n=19 | 6 rated 1–2, 8 rated 3, and 5 rated 4–5. Average: 2.95/5. | Opinions are mixed. Some people are satisfied. |
+| Biggest problem, n=20 | 9: cheats bypass tools (45%). 4: wrong bans (20%). 3: privacy (15%). | Detection and fair decisions both matter. |
 
-Wallhacks (15/20) and aimbots (14/20) lead the multiple-selection list of problematic cheat types. Bots received 10 selections, macros/scripts and exploits 9 each, and hardware-assisted cheats 7. SUB-CHECK’s aim-analysis scope addresses part of this list. It does not justify a promise to detect wallhacks, bots or every hardware cheat.
+Participants could select several cheat types. Wallhacks received 15 selections and aimbots received 14. Bots received 10. Macros or scripts and exploits each received 9. Hardware-assisted cheats received 7. SUB-CHECK focuses on aiming. We have no evidence that it can detect all these cheat types.
 
-## Customer jobs and pains
+## Customer tasks and problems
 
-The player’s functional job is to participate in fair matches. Cheating interrupts that goal and makes results less trustworthy. The studio and moderator jobs remain hypotheses to validate with buyers: investigate reports efficiently, make defensible enforcement decisions and handle appeals without excessive work. The interview analysis on page 5 adds examples of actual behaviour to the survey summaries.
+Players want fair matches and results they can trust. We expect studios and moderators to need faster review and clear evidence for decisions. We still need to test these needs with actual buyers. The interviews on page 5 give examples of behaviour as well as opinions.
 
-Survey feedback points to two linked pains: existing tools can be bypassed, while incorrect sanctions can harm legitimate players. This means a useful product must improve the quality of evidence and keep a review process. A high volume of alerts alone would not demonstrate value.
+Survey answers show a problem with cheats that avoid current protection. They also show concern about wrong bans. A useful product should help people make better decisions. A large number of alerts alone does not show success.
 
-## Kernel access and platforms
+## Kernel access and platform support
 
-Eight of 20 would probably not or would not install a kernel-level anti-cheat, six were unsure, and six would or probably would. The largest individual concerns were security vulnerabilities (9/20) and privacy (7/20). These answers indicate friction, without proving that all customers reject kernel tools.
+Kernel software has deep access to the operating system. Eight of 20 said they probably would not, or would not, install kernel-level anti-cheat. Six were unsure. Six said yes or probably yes. The main concerns were security weaknesses (9/20) and privacy (7/20). The sample does not show that everyone rejects kernel tools.
 
-Windows received 17 selections, Linux 5 and SteamOS/Steam Deck 4. Platform selections overlap, so Linux and SteamOS cannot be combined into a unique participant count. Compatibility remains a relevant secondary benefit, while the immediate pilot should focus on reliable analysis in one supported game.
+Windows received 17 selections, Linux 5, and SteamOS or Steam Deck 4. People could select several platforms. We cannot add Linux and SteamOS to count unique people. Platform support may be useful, but the first pilot should focus on one supported game.
 
-Sources: survey screenshots Q05–Q12 and Q04. Multiple-selection percentages use the number answering that question, not the total number of selections.
+Sources: survey Q04–Q12. The percentage for each option uses the number of people answering that question. It does not use the total number of selections.
 
-# Concept feedback and adoption conditions
+# Feedback on the proposed service
 
-## Useful concept with unresolved accuracy concerns
+## Interest and concerns
 
-Sixteen of 20 rated concept usefulness at 4 or 5 (80%), four rated it 3, and none rated it 1 or 2. The mean is 4.20/5. Positive responses to a described concept are an interest signal. They do not prove detection quality or adoption.
+Sixteen of 20 rated the idea’s usefulness at 4 or 5 (80%). Four rated it 3. No one rated it 1 or 2. The average was 4.20/5. This shows interest in the description. We have not tested real use or detection quality.
 
-| Multiple-selection question, n=20 | Selections |
+| Question, n=20 | Selections |
 | --- | --- |
-| Main advantages | No kernel software 12 (60%); better privacy 11 (55%); hardware-cheat detection 10 (50%); platform compatibility 7 (35%) |
-| Main concerns | Detection accuracy 11 (55%); false positives 9 (45%); telemetry privacy 9 (45%); server costs 7 (35%) |
-| Response to suspicious behaviour | Manual review 12 (60%); additional verification 12 (60%); temporary restriction 8 (40%); immediate ban 7 (35%) |
+| Main benefits | No kernel software: 12 (60%). Better privacy: 11 (55%). Hardware-cheat detection: 10 (50%). Platform support: 7 (35%). |
+| Main concerns | Accuracy: 11 (55%). Wrong alerts: 9 (45%). Game data privacy: 9 (45%). Server costs: 7 (35%). |
+| Action after a suspicious event | Manual review: 12 (60%). Extra checks: 12 (60%). Temporary limits: 8 (40%). Immediate ban: 7 (35%). |
 
-All 20 said yes or probably yes to trusting an anti-cheat more when a suspicious player receives review before a permanent ban. This question presents review positively, so the result supports testing a review workflow without showing that respondents will accept its delay or cost. Manual review and verification selections overlap and cannot be added.
+All 20 said yes or probably yes when asked if review before a permanent ban would increase trust. The question presents review in a positive way. We still need to test whether people accept its time and cost. People could select both manual review and extra checks. We cannot add these counts.
 
-## Technical integration and data control
+## Integration and data sharing
 
-In the technical-experience subgroup (n=9), seven rated the difficulty of implementing effective anti-cheat at 4 or 5. Six selected a self-hosted solution and three a managed cloud service. REST API, SDK and game-engine plugin each received four selections. These are overlapping preferences, not mutually exclusive product alternatives.
+In the technical group of nine, seven rated anti-cheat development difficulty at 4 or 5. Six selected self-hosting and three selected managed cloud. An API, SDK and engine plugin each received four selections. An API connects systems. An SDK provides code tools. A plugin adds a feature to a game engine. These options could overlap.
 
-Five of nine would send anonymised telemetry with strict privacy controls, three said yes, and one was unsure. Self-hosting preference and conditional data sharing can coexist. The available aggregates do not reveal which people selected both. Unreal Engine received four preferences, Unity two, and the remaining three selected Godot, a custom engine or a free-text engine answer. This supports an Unreal-first interview plan, not an immediate commitment to a full plugin.
+Five of nine would share game data only with strict privacy controls. Three said yes and one was unsure. We cannot see which people also chose self-hosting. Four selected Unreal Engine, two Unity, and three gave other engine answers. We propose asking Unreal developers first. This does not justify building a full plugin yet.
 
-## Pricing and open feedback
+## Pricing and open comments
 
-Twelve of 20 selected a free/open-source core plus paid cloud service, eight a fixed monthly subscription, six per active player, six per analysed session and four tiered subscription. Fifteen said a free tier would increase their likelihood of testing, and five said maybe. These findings motivate a bounded pilot; price levels and paid conversion remain untested.
+Twelve of 20 selected a free or open-source core with paid cloud services. Eight selected a fixed monthly price. Six selected a price per active player and six a price per analysed session. Four selected price tiers. Fifteen said a free tier would help them test the service. Five said maybe. We still need to test actual prices and payment.
 
-Q26 reports nine open answers but only eight are visible. Among the visible comments are “live game ban showcase” and “Cheaters, they make you lose all desire to play”. Other substantive comments request transparency, low overhead, privacy protection and independently audited security. We treat these as qualitative themes without a prevalence estimate. Q27 reports eight answers with seven visible, mostly brief non-additions.
+Q26 reports nine written answers, but only eight are visible. Comments ask for a live game example, clear information, low performance cost, privacy and an independent security review. One comment says cheating removes the wish to play. We describe these themes without estimating how common they are. Q27 reports eight answers, but only seven are visible. Most add little new information.
 
-Sources: Q13, Q15–Q18 and Q20–Q27. Q14 repeats Q13 and Q19 repeats Q03.
+Sources: Q13, Q15–Q18, Q20–Q27. Q14 repeats Q13. Q19 repeats Q03. Hardware-cheat detection is a participant expectation, not a tested result.
 
 # Recorded interview findings
 
-Three recordings add qualitative context to the survey. We use anonymised IDs, paraphrase the clear passages and retain timestamps for traceability. Interviewees describe different game types, so their comments should not be combined into a single target-market vote.
+We analysed three recordings. We use IDs I01–I03 and describe clear statements in our own words. The times help readers find the source. The interviewees work with different games. Their answers do not form one target-market vote.
 
-## I01 Multiplayer mobile game director
+## I01 Mobile multiplayer game director
 
-The respondent describes daily work on cheating and server protection (01:14–02:13). The main protection need concerns key game values such as money and ammunition rather than aim input (03:32–04:12). This is a useful negative fit signal: a studio can have a serious cheating problem without needing SUB-CHECK’s proposed aim-analysis product.
+The director describes daily work on cheating and server protection (01:14–02:13). The main need is to protect game values such as money and ammunition (03:32–04:12). Aiming is not the main problem. This shows that a studio may face serious cheating but still have little need for our first product.
 
-The respondent finds the general idea interesting but needs details to evaluate it (04:59–06:18). Integration requires development-lead review, control over code and data, and clear responsibility when a partner handles data (06:47–08:30). These are adoption conditions, not a pilot or purchasing commitment. The remarks about legal obligations are the respondent’s requirements, not a legal assessment in this report.
+The director finds the idea interesting but needs more details (04:59–06:18). The development lead must check the integration. The studio needs control over code and data, and clear partner responsibilities (06:47–08:30). These are conditions for considering the service. They are not a promise to test or buy. Comments about legal duties are the interviewee’s requirements.
 
-## I02 Independent game developer with an online leaderboard
+## I02 Independent developer with an online leaderboard
 
-The respondent describes a small game with a leaderboard and a server-side maximum-score filter (00:45–01:23). They describe inspecting logs after the system excluded users incorrectly (01:48–02:20). Their desired gain is reliable validation without errors that reject legitimate results. This supports attention to false positives, while leaderboard integrity is outside the initial aim-analysis scope.
+The developer describes a small game with an online leaderboard and a maximum-score filter (00:45–01:23). They checked logs after the filter wrongly excluded users (01:48–02:20). They need reliable checks that accept fair results. This supports our focus on wrong alerts. However, leaderboard protection is outside our first aiming product.
 
-The respondent values platform reach (02:33–02:53) and prefers a configurable SDK over automatic integration, citing control over a personal project (04:11–04:31). Interest in delegation is conditional on having a suitable server-based game (03:25–03:43). No budget or agreement to adopt is recorded.
+The developer values platform support (02:33–02:53). They prefer an SDK they can adjust rather than automatic integration (04:11–04:31). They may use outside security help if they build a suitable server-based game (03:25–03:43). The recording contains no budget or agreement to adopt the service.
 
 ## I03 Developer with multiplayer mod and server experience
 
-The respondent describes modding and small-game development, including multiplayer/server work (01:07–02:51), and discusses adding Minecraft server mods for suspicious behaviour (03:08–03:30). Performance and compatibility are important concerns (05:12–07:30). These are reported experiences, not verified industry claims.
+The developer describes modding and multiplayer server work (01:07–02:51). They also discuss Minecraft server mods for suspicious behaviour (03:08–03:30). Performance and platform support matter to them (05:12–07:30). These are reported experiences. We have not checked broader claims about other products.
 
-Telemetry must not block gameplay or punish network/service failures (12:00–13:17). Collecting additional data can still add overhead, and retrofitting an existing game differs from integrating during development (15:15–17:17; 21:40–23:56). The respondent favours configurable engine integration for a new game, a usable free core with paid extras (32:25–35:19), and an appeal route for false positives (35:41–38:19). No price or commitment is recorded.
+Game data analysis must not stop gameplay or punish connection failures (12:00–13:17). Collecting data can still add extra load. Adding a tool to an old game may be harder than adding it during development (15:15–17:17, 21:40–23:56). The developer prefers adjustable integration, a useful free core with paid extras (32:25–35:19), and a way to appeal wrong bans (35:41–38:19). No price or purchase promise is recorded.
 
-## Cross-interview interpretation
+## Meaning for SUB CHECK
 
-The interviews support control, integration reliability and fair handling of uncertainty. They also narrow the segment: prioritise a shooter studio with an actual aim-cheat review problem. Mobile economy protection and leaderboard validation belong in a later discovery backlog. No interview demonstrates model accuracy, measured time savings, a price or a paid commitment.
+The interviews support data control, reliable integration and careful decisions. They also help us narrow the customer group. We should first find shooter studios with an actual aim-cheat review problem. Mobile economy and leaderboard protection need separate research. None of the interviews proves model accuracy, time savings or payment.
 
-Sources: I01 audio 09:06; I02 audio 04:46; I03 desktop recording 38:58. Timestamped notes and the evidence manifest map findings to the original recordings. We paraphrase clear passages because automatic transcription contains errors.
+Sources: I01 audio 09:06, I02 audio 04:46, I03 desktop recording 38:58. The notes include source times. Automatic transcription contains errors, so we avoid exact audio quotations.
 
-# Hypotheses and changes to the business idea
+# Hypotheses and changes to the idea
 
-## What the evidence supports
+## Evidence status
 
-| Hypothesis | Evidence and status |
+| Hypothesis | Current evidence |
 | --- | --- |
-| Cheating is a meaningful player problem | Supported within this sample: 17/19 seriousness ratings at 4–5 and 14/20 frequent or occasional encounters |
-| Customers value a server-side approach | Early interest: 16/20 usefulness ratings at 4–5. Adoption is untested |
-| Privacy and kernel access matter | Supported as concerns: 12/20 selected no kernel software as an advantage; 9/20 worry about telemetry privacy |
-| Review increases trust | Stated preference supported: 20/20 yes or probably yes; operational cost and delay untested |
-| Studios will buy a cloud-only product | Unvalidated, with a deployment challenge: 6/9 select self-hosting |
-| Behaviour analysis detects hardware cheats accurately | Unvalidated. The survey measures expectations; no labelled technical benchmark exists |
-| Customers will pay at the proposed rate | Unvalidated. No actual budgets, commitments or price-level experiment |
+| Cheating is a player problem | Supported in this sample. 17/19 rated seriousness at 4–5. 14/20 met cheating often or sometimes. |
+| People value server-side analysis | Early interest. 16/20 rated usefulness at 4–5. Actual use is untested. |
+| Privacy and kernel access matter | 12/20 selected no kernel software as a benefit. 9/20 raised game data privacy concerns. |
+| Review can increase trust | 20/20 said yes or probably yes. Review time and cost are untested. |
+| Studios will buy a cloud-only service | Untested. 6/9 in the technical group selected self-hosting. |
+| Aim analysis can detect hardware cheats well | Untested. We have no technical test with reliable labels. |
+| Customers will pay our price | Untested. We have no actual price test, budget or payment promise. |
 
-## Changes relative to Assignment 2
+## Changes since Assignment 2
 
-Assignment 2 already narrowed the customer to an indie or AA shooter studio, positioned the tool beside existing protection and required moderator review. We retain that baseline. The current study changes the delivery and validation priorities rather than presenting those earlier choices as new discoveries.
+Assignment 2 already focused on small shooter studios and moderator review. It also placed SUB-CHECK beside current anti-cheat tools. We keep these choices. The new study changes how we plan to deliver and test the service.
 
-| Before | Updated proposal | Reason |
+| Earlier plan | Updated plan | Reason |
 | --- | --- | --- |
-| Hosted service first | Evaluate self-hosted deployment alongside managed cloud | 6/9 technical respondents select self-hosting |
-| General integration support | Minimal API and event schema first; assess Unreal adapter in buyer interviews | API, SDK and plugin tie at 4/9; Unreal is 4/9 |
-| Risk score and dashboard | Supporting events, review trail and appeal workflow in the pilot | Accuracy 11/20; false positives 9/20; review preference 20/20 |
-| Telemetry ingestion | Minimise fields; pseudonymous session IDs; retention and deletion controls | Telemetry privacy 9/20; conditional sharing 5/9 |
-| Pilot and usage tiers | Free bounded evaluation; test fixed and usage pricing with buyers | Free tier yes 15/20; preferences do not prove payment |
+| Hosted service first | Compare own-server and cloud options. | 6/9 selected self-hosting. |
+| General integration support | Start with a small API and clear data fields. Ask Unreal developers about an adapter. | API, SDK and plugin: 4/9 each. Unreal: 4/9. |
+| Risk score and dashboard | Show event evidence, save review decisions, and allow appeals. | Accuracy: 11/20. Wrong alerts: 9/20. Review: 20/20. |
+| Collect game data | Collect only needed fields. Use IDs without real names. Set storage and deletion rules. | Data privacy: 9/20. Conditional sharing: 5/9. |
+| Pilot and usage tiers | Offer a limited free pilot. Test monthly and usage prices with buyers. | 15/20 said a free tier would help testing. |
 
-The recordings also change qualification and architecture. Mobile game values and leaderboard validation are adjacent problems, so we prioritise actual aim-cheat review needs. Before a pilot, confirm that the studio can export the required data: I03 distinguishes new-game integration from potentially expensive retrofitting. Use asynchronous analysis and never treat missing telemetry alone as proof of cheating.
+The interviews add two conditions. First, the studio must have an aim-cheat problem and access to the needed data. Second, analysis should run separately from gameplay. Missing data alone must not cause a cheating alert or punishment.
 
-We do not promise immunity to hardware cheats, an unbreakable cloud model, calibrated cheat probability or full operating-system compatibility for an entire game. A server-side score is a hypothesis to evaluate per game and should remain a prioritisation signal until the evidence supports a stronger interpretation.
+The score should help order review cases. It does not give a proven probability of cheating. We do not claim full hardware-cheat detection or full platform support for the whole game. Each game needs its own test.
 
 # Updated business model
 
-## Customer and value proposition
+## Customer and proposed value
 
-SUB-CHECK is a proposed B2B tool for small shooter studios with authoritative servers, a moderation workflow and feasible access to the required telemetry. It would help moderators prioritise suspicious aim events, inspect evidence and record decisions. The studio integrates and pays; players gain fairer review without an additional SUB-CHECK kernel installation. Faster review and fewer incorrect decisions are intended gains to measure.
+We plan a B2B service for small shooter studios. Their servers must control match results and provide the needed game data. Moderators would review suspicious aim events and save decisions. Studios would connect the service and pay for it. Players could receive fairer review without an extra SUB-CHECK kernel installation. We still need to measure faster review and fewer wrong decisions.
 
-| Business Model Canvas block | Updated working hypothesis |
+| Business Model Canvas block | Working hypothesis |
 | --- | --- |
-| Customer segments | Indie and AA competitive shooter studios. Technical leads or owners as buyers, moderators as users. Budget authority still unverified |
-| Value proposition | Explainable aim-analysis risk scores, human review, controlled telemetry and a choice of deployment |
-| Channels | Developer communities, technical documentation and direct studio outreach. Channel effectiveness untested |
-| Customer relationships | Assisted pilot integration, feedback sessions and technical support |
-| Revenue streams | Bounded free pilot, followed by tested paid cloud usage or predictable monthly plans; optional self-hosted support. No confirmed prices |
-| Key activities | Telemetry integration, model evaluation, moderator workflow development, privacy controls and integration support |
-| Key resources | Game-specific labelled data, integration expertise, a model pipeline and secure processing infrastructure |
-| Key partners | Pilot studios and moderators supplying permissioned data; engine/community contacts for integrations |
-| Cost structure | Engineering, data labelling, inference and storage, security review and customer support. Unit costs remain unmeasured |
+| Customer segments | Small independent and medium-sized competitive shooter studios. Studio leads buy, and moderators use the tool. We must confirm budget authority. |
+| Value proposition | Aim risk scores with event evidence, human review, data control and a choice of where to run the service. |
+| Channels | Developer communities, technical guides and direct studio contact. We have not tested which channel works best. |
+| Customer relationships | Help with pilot integration, feedback meetings and technical support. |
+| Revenue streams | A limited free pilot, then paid cloud use or a monthly plan. Possible paid support for self-hosting. No confirmed prices. |
+| Key activities | Connect game data, test the model, build review tools, protect data and support integration. |
+| Key resources | Game data with reliable labels, integration skills, analysis software and secure servers. |
+| Key partners | Pilot studios and moderators that can share data with permission. Engine and developer community contacts. |
+| Cost structure | Development, data labelling, analysis, storage, security review and support. We have not measured cost per session. |
 
-## Commercial implications
+## Business decisions still to test
 
-The sample can inform product priorities but cannot establish market size or revenue. Only two respondents selected game developer, and none selected esports organiser/admin. Software or cybersecurity experience does not imply a studio purchasing role. The next commercial decision therefore depends on interviews with people who own a game, an integration decision and a budget.
+This sample helps us choose product priorities. It does not show market size or expected income. Only two people selected game developer, and none selected esports admin. Software or security knowledge does not mean a person can buy for a studio. We need interviews with people who control a game project and its budget.
 
-A free/open-source core is a pricing preference to test, not a licence commitment. Before choosing it, compare support burden, security update responsibility, evaluation-to-paid conversion and whether customers need local deployment because of privacy policy, latency or infrastructure control.
+A free or open-source core is an option to test. We have not chosen a software licence. Before deciding, we should compare support work, security updates and the move from a free pilot to payment. We should also ask why each customer needs local or cloud deployment.
 
-# Value proposition and validation roadmap
+# Value proposition and next tests
 
-## Updated customer profile and value map
+## Customer profile and value map
 
-| Customer profile | Proposed product response |
+| Customer need | Proposed product response |
 | --- | --- |
-| Job: identify suspicious matches and make defensible decisions | Risk-ranked cases with highlighted aim events and a review log |
-| Pain: bypasses reduce confidence in existing protection | Add behavioural evidence to the existing detection stack; measure coverage by cheat type |
-| Pain: false positives and disputes | Human review before permanent bans; preserve supporting events and an appeal trail |
-| Pain: data exposure and integration uncertainty | Minimal documented schema, pseudonymous IDs and explicit storage/deletion policy |
-| Gain: useful detection with manageable overhead | Benchmark detection, time to review, latency, bandwidth and cost per session |
-| Gain: deployment and evaluation flexibility | Bounded free pilot plus self-hosted and managed options to compare |
+| Task: find suspicious matches and make fair decisions | Order cases by risk. Show aim events and save review decisions. |
+| Problem: cheats avoid current protection | Add behaviour evidence beside current tools. Test each cheat type. |
+| Problem: wrong alerts and disputes | Review before permanent bans. Keep evidence for appeals. |
+| Problem: data privacy and difficult integration | Use a small set of clear data fields, IDs without names, and storage rules. |
+| Gain: useful checks with low extra load | Measure detection, review time, delay, bandwidth and cost per session. |
+| Gain: easy evaluation and server choice | Compare a limited free pilot on local servers and managed cloud. |
 
-## Next experiments and proposed decision rules
+## Proposed experiments
 
-These experiments and thresholds are proposed by the team. They are not outcomes of the current study and should be agreed with pilot customers before collecting data.
+The following numbers are future targets. We have not achieved them. Agree on the test rules with pilot customers before collecting their data.
 
-| Experiment | Evidence to collect | Decision rule |
+| Test | Evidence to collect | Proposed rule |
 | --- | --- | --- |
-| Buyer discovery | At least 8 studio leads or moderators; recent incidents, review effort, budget owner, data constraints | Continue if at least 3 studios offer a concrete pilot with available data and an owner |
-| Silent technical pilot | Labelled clean and cheating sessions, separate train/test players, reviewers blind to model score | No automatic bans; compare precision and false alerts at the customer-agreed threshold |
-| Review workflow test | The same cases with and without ranked evidence; paired review time and decision quality | Target at least 20% shorter median review time without worse decisions |
-| Deployment comparison | Integration time, permitted data, bandwidth, latency and operating cost | Choose default deployment from actual pilot constraints, not survey counts alone |
-| Commercial test | A specific paid offer after a successful free pilot and measured unit costs | Treat payment or signed commitment as stronger evidence than a pricing preference |
+| Buyer interviews | At least 8 studio leads or moderators. Ask about recent cases, review time, budget owners and data rules. | Continue if 3 studios offer a concrete pilot with available data and a responsible person. |
+| Silent technical pilot | Use labelled fair and cheating sessions. Keep test players separate from training players. Hide scores during independent review. | No automatic bans. Compare correct alerts and wrong alerts at a level agreed with the customer. |
+| Review test | Compare the same cases with and without ranked evidence. Record time and decision quality. | Target at least 20% less median review time with no worse decisions. |
+| Server options | Measure setup time, permitted data, bandwidth, delay and operating cost. | Choose the default using actual pilot results. |
+| Price test | Make a specific paid offer after a useful free pilot. Measure service costs. | Treat payment or a signed promise as stronger evidence than a preference. |
 
-I03 adds a reliability test: simulate slow or unavailable analysis and packet loss. Gameplay must continue, and missing telemetry alone must not increase a player’s risk or cause a sanction. Measure the overhead on the authoritative server rather than assuming a remote service is free of performance cost.
+Also test slow analysis, lost data and service failures. The game must continue. Missing data alone must not raise the risk score or cause punishment. Measure the extra load on game servers even if analysis runs elsewhere.
 
-Precision, recall and false alerts require trusted labels and game-specific evaluation. Include high-skill legitimate players, latency variation and different input devices. Restrict access to pilot data and log reviewer decisions. A risk score should not become a permanent-ban trigger during this validation phase.
+Include skilled fair players, different connection speeds and input devices. Correct labels are essential. Limit access to pilot data and save review decisions. Keep permanent-ban decisions with people during the pilot.
 
-Separately, close the assignment evidence gap by adding the required participants with verifiable records. Do not retrospectively reconstruct individual survey answers from the aggregate charts.
+We also need more participant records to meet the course minimum. We must collect new answers rather than create individual answers from summary charts.
 
-# Limitations conclusions and references
+# Limitations conclusion and sources
 
-## Limitations
+## Study limitations
 
-The available survey contains 20 participants, below the 30 required online respondents. Three recording files also fall below the five face-to-face video-interview alternative; audio files and a desktop recording should not be described as five face-to-face videos. This affects the interview execution criterion even though the available findings can still support analysis and an updated idea.
+Our material includes 20 survey participants and three recordings. It is below the course minimum of 30 online participants or five face-to-face video interviews. Two audio files and one desktop recording do not meet the five-video option. We can analyse the available evidence, but this course requirement remains unmet.
 
-We have aggregate screenshots rather than the response export. Therefore we cannot verify participant uniqueness, compare roles with preferences, estimate overlap with interviewees or reconstruct individual response rows. Some questions have 19 responses, and the technical branch has nine. Roles, platforms and several preference questions allow multiple selections. Their percentages can exceed 100% when added.
+We received summary screenshots rather than individual survey answers. We cannot check unique participants, connect roles to preferences, or compare survey and interview participants. Most questions have 20 answers. Two have 19, and the technical section has nine. Several questions allow more than one choice, so their percentages may add to more than 100%.
 
-The original questionnaire introduction and branching settings are not fully visible. The nine-person technical section matches the number answering yes to game/server experience, but this alone does not verify routing. Two screenshots repeat other charts. Two open-response screenshots show fewer answer cards than their displayed totals, so those sections are incomplete.
+The full introduction and question-routing settings are not visible. Nine people report game or server experience, and nine answer technical questions. This match does not prove how the form sent people to those questions. Two screenshots repeat charts. Two written-answer sections show fewer answer cards than their totals.
 
-The small reachable sample contains many software and cybersecurity respondents and few confirmed game developers. Recruitment details and survey dates were not documented in the supplied summaries. Concept questions and feature descriptions may bias respondents toward the proposed solution. No market-size estimate, customer payment, retention effect or working detection benchmark follows from these materials.
+Many participants have software or cybersecurity backgrounds. Few are confirmed game developers. The summaries do not record survey dates or recruitment details. The idea description may make answers more positive. The material does not prove market size, customer payment, player retention or detection quality.
 
-Interview notes rely on local automatic transcription, which can misrecognise names and specialised terms. Findings use clear, relevant passages and include timestamps, while exact quotations from the audio are avoided. Uncertain details require source-audio review before being used as stronger evidence.
+Interview notes use local automatic transcription. It may contain wrong names or technical words. We use clear passages, our own wording and source times. Unclear details need another check of the recording before stronger claims.
 
 ## Conclusion
 
-The study supports continuing SUB-CHECK as a focused tool for studios and moderators, with detection quality and fair review as the immediate priorities. We retain server-side aim analysis alongside existing protection, add data control and deployment choice, and use a free bounded pilot to test integration and operational value. Buyer demand and technical performance remain the central questions for the next stage.
+The study supports a focused pilot for SUB-CHECK. We keep server-side aim analysis beside current protection. We add data control, server choice and a fair review process. The next steps should test integration, detection quality and useful review. We still need evidence from studio buyers and actual paid offers.
 
 ## Sources
 
-1. Assignment 3 Business model Customer Development instructions. Local course document. Assessment requirements and supplied methodology examples.
+1. Assignment 3 Business model Customer Development. Local course instructions and research examples.
 
-2. SUB-CHECK Assignment 2 report. Local project baseline, pages 1–5. Customer, value proposition and original pilot model.
+2. SUB-CHECK Assignment 2 report, pages 1–5. Earlier customer definition and pilot plan.
 
-3. Survey/photo_1 … photo_27_2026-10-08_14-51-25.jpg. Google Forms aggregate summaries. Question IDs follow screenshot numbers. Aggregate transcription and evidence map accompany this report.
+3. Survey screenshots photo_1 to photo_27, dated in the file names 8 October 2026. Google Forms summaries. Question IDs follow screenshot numbers. The project includes option counts and an evidence map.
 
-4. Interviews folder. Three supplied recordings, referenced by anonymised IDs I01–I03 and source timestamps in the interview notes.
+4. Three supplied recordings in the Interviews folder. Notes use anonymous IDs I01–I03 and source times.
 
-5. ProductStar. How and why a product manager conducts CustDev. Habr, 3 June 2020. https://habr.com/ru/companies/productstar/articles/505208/ . Used for role segmentation, neutral questions about past behaviour and evidence-linked insights.
+5. ProductStar, How and why a product manager conducts CustDev. Habr, 3 June 2020. https://habr.com/ru/companies/productstar/articles/505208/ . Used for customer groups, neutral questions and past behaviour.
 
-6. The second course-supplied methodology example on vc.ru was inaccessible during review. Its URL and access status appear in sources/README.md; no factual claim relies on it.
+6. The second course example on vc.ru could not be accessed during review. Its link and access status are in sources/README.md. No factual claim depends on it.

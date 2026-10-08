@@ -1,0 +1,324 @@
+[
+  {
+    "title": "SUB-CHECK",
+    "kind": "cover",
+    "source": "Technology Entrepreneurship. Assignment 3. 8 October 2026.",
+    "subtitle": "Customer Development",
+    "items": [
+      "Server-side aim analysis for studio moderators",
+      "Nurzhan Bekmurat, Azamat Yermukhan, Yernur Khuan",
+      "Group CS-2406"
+    ],
+    "notes": "Hello. We are presenting SUB-CHECK, a proposed anti-cheat service for small shooter studios. It would analyse aiming behaviour using game server data. Moderators would receive a risk score and event evidence. Our study explores the problem and reactions to this idea. We have not yet proved product quality or customer payment.",
+    "hint": "Introduce the team. Say \u201cproposed service\u201d clearly. Do not describe it as a finished product.",
+    "transition": "First, we explain our research material.",
+    "seconds": 35
+  },
+  {
+    "title": "Research material",
+    "kind": "scope",
+    "source": "Sources: 27 survey screenshots and three recordings. Course instructions.",
+    "metrics": [
+      [
+        "20",
+        "survey participants"
+      ],
+      [
+        "3",
+        "recorded interviews"
+      ]
+    ],
+    "items": [
+      "Answers per question: 20, 19 or 9",
+      "We have summary charts, not individual answers",
+      "Interview and survey participants may overlap",
+      "Course minimum: 30 online participants or 5 face-to-face videos"
+    ],
+    "notes": "We used twenty survey participants and three recorded interviews. Some questions have nineteen answers. The technical section has nine. We received summary charts, so we cannot connect answers to individual people. We analyse interviews separately because we do not know if participants overlap. The available material remains below the course minimum.",
+    "hint": "Say the actual counts first. Explain the missing minimum once, without adding the two groups.",
+    "transition": "Next, we separate buyers, users and players.",
+    "seconds": 45
+  },
+  {
+    "title": "Customer roles",
+    "kind": "roles",
+    "source": "Sources: Assignment 2, Q01 and Q03. Future recruitment is our plan.",
+    "roles": [
+      [
+        "Buyer",
+        "Studio lead",
+        "Controls the budget and integration decision"
+      ],
+      [
+        "User",
+        "Moderator",
+        "Reviews suspicious matches and appeals"
+      ],
+      [
+        "Player",
+        "Competitive player",
+        "Needs fair matches and fair decisions"
+      ]
+    ],
+    "items": [
+      "Next interviews: confirmed studio buyers and moderators",
+      "Only 2 of 20 selected game developer"
+    ],
+    "notes": "Our buyer is a lead at a small or medium-sized shooter studio. The buyer controls the budget and the decision to connect the service. Moderators are the daily users. Players benefit from fair matches and careful decisions. The survey includes only two people who selected game developer. Our next interviews should focus on actual studio buyers.",
+    "hint": "Explain that buyer and user can be different people. Do not call all nine technical participants buyers.",
+    "transition": "The survey gives an early view of the cheating problem.",
+    "seconds": 40
+  },
+  {
+    "title": "The cheating problem",
+    "kind": "stats",
+    "source": "Sources: Q05 n=19, Q06 n=20, Q10 n=19.",
+    "metrics": [
+      [
+        "17 / 19",
+        "rated seriousness at 4\u20135",
+        "89.5%"
+      ],
+      [
+        "14 / 20",
+        "met cheating often or sometimes",
+        "70%"
+      ]
+    ],
+    "items": [
+      "Average satisfaction with current tools: 2.95 / 5",
+      "Results describe this sample"
+    ],
+    "notes": "Seventeen of nineteen participants rated the cheating problem at four or five out of five. This is about ninety percent. Fourteen of twenty met cheating often or sometimes. Satisfaction with current tools averaged two point nine five out of five. These answers show a relevant problem in our sample. They do not describe every player or studio.",
+    "hint": "Point to the counts before the percentages. \u201c17 out of 19\u201d is easier to say than 89.5%.",
+    "transition": "We then asked about the SUB-CHECK idea.",
+    "seconds": 40
+  },
+  {
+    "title": "Interest and concerns",
+    "kind": "chart",
+    "source": "Sources: Q13 and Q16, n=20. People could select several concerns.",
+    "categories": [
+      "Accuracy",
+      "Wrong alerts",
+      "Game data privacy",
+      "Server costs"
+    ],
+    "values": [
+      11,
+      9,
+      9,
+      7
+    ],
+    "base": 20,
+    "callout": "16 of 20 rated usefulness at 4\u20135",
+    "items": [
+      "Interest does not prove detection quality or payment"
+    ],
+    "notes": "Sixteen of twenty rated the idea\u2019s usefulness at four or five. However, eleven selected accuracy as a concern. Nine selected wrong alerts, and nine selected game data privacy. Seven selected server costs. People could choose several concerns. These results help us choose what to test first. They do not prove that the service detects cheating well.",
+    "hint": "Reveal the bars one at a time. A wrong alert means a fair player receives a cheating alert.",
+    "transition": "This leads to the question of fair review.",
+    "seconds": 45
+  },
+  {
+    "title": "Review before permanent bans",
+    "kind": "chart",
+    "source": "Sources: Q17 and Q18, n=20. Several actions could be selected.",
+    "categories": [
+      "Manual review",
+      "Extra checks",
+      "Temporary limits",
+      "Immediate ban"
+    ],
+    "values": [
+      12,
+      12,
+      8,
+      7
+    ],
+    "base": 20,
+    "callout": "20 of 20 said review would increase trust",
+    "items": [
+      "Review time and cost still need testing"
+    ],
+    "notes": "Twelve participants selected manual review, and twelve selected extra checks. These groups may overlap. All twenty said yes or probably yes when asked whether review before a permanent ban would increase trust. The question describes review positively. We still need to test whether people accept its time and cost. Our pilot keeps permanent-ban decisions with moderators.",
+    "hint": "Do not add the two groups of twelve. Say that trust is a stated opinion, not measured behaviour.",
+    "transition": "The technical answers also show a need for control.",
+    "seconds": 45
+  },
+  {
+    "title": "Where the service should run",
+    "kind": "chart",
+    "source": "Sources: Q21 and Q23, n=9. These are technical participants, not confirmed buyers.",
+    "categories": [
+      "Own servers",
+      "API",
+      "SDK",
+      "Engine plugin",
+      "Managed cloud"
+    ],
+    "values": [
+      6,
+      4,
+      4,
+      4,
+      3
+    ],
+    "base": 9,
+    "callout": "5 of 9 require strict data privacy controls",
+    "items": [
+      "Compare local servers and cloud in a pilot"
+    ],
+    "notes": "Six of nine technical participants selected running the service on their own servers. Three selected managed cloud. An API, SDK and engine plugin each received four selections. These options can overlap. Five would share data only with strict privacy controls. We should compare server options in a pilot. This small group cannot decide the whole product design.",
+    "hint": "Own servers means self-hosting. API connects systems. SDK gives code tools. Define terms only if needed.",
+    "transition": "The interviews show why these choices matter.",
+    "seconds": 45
+  },
+  {
+    "title": "Interview findings",
+    "kind": "interviews",
+    "source": "Sources: I01 03:32\u201304:12, I02 01:48\u201302:20, I03 12:00\u201313:17 and 15:15\u201317:17.",
+    "interviews": [
+      [
+        "I01",
+        "Mobile game director",
+        "Main problem: game money and ammunition",
+        "Limited fit for our aiming product"
+      ],
+      [
+        "I02",
+        "Independent developer",
+        "Checked logs after wrong score rejection",
+        "Reliable checks and integration control matter"
+      ],
+      [
+        "I03",
+        "Developer with server experience",
+        "Data analysis must not stop gameplay",
+        "Measure extra load and handle failures"
+      ]
+    ],
+    "items": [
+      "Three different contexts. No purchase commitment."
+    ],
+    "notes": "The mobile game director mainly needs protection for game values, such as money. This is a limited fit for our first aiming product. The independent developer checked logs after a score filter wrongly rejected users. The third developer said data analysis must not stop gameplay and can still add extra load. These interviews support careful review and reliable integration. None includes a purchase commitment.",
+    "hint": "Describe one example per interview. Use anonymous IDs. Do not present their needs as one common vote.",
+    "transition": "We used these findings to update the idea.",
+    "seconds": 60
+  },
+  {
+    "title": "Changes to the idea",
+    "kind": "updates",
+    "source": "Sources: Assignment 2, survey Q16\u2013Q25 and I01\u2013I03.",
+    "items": [
+      "Keep aim analysis beside current anti-cheat",
+      "Show event evidence and save review decisions",
+      "Collect only needed data and allow server choice",
+      "Use a limited free pilot before a paid offer"
+    ],
+    "notes": "Assignment two already focused on shooter studios and human review. We keep these choices. We now add clearer event evidence, saved review decisions and data controls. We also compare local and cloud deployment. Before a pilot, we confirm that the studio has an aiming problem and can share the needed data. Missing data alone must never cause punishment.",
+    "hint": "Separate earlier choices from new changes. Mention that gameplay continues during analysis failures.",
+    "transition": "The updated business model follows these choices.",
+    "seconds": 45
+  },
+  {
+    "title": "Updated business model",
+    "kind": "model",
+    "source": "Working hypotheses. No confirmed prices or measured service costs.",
+    "canvas": [
+      [
+        "Customers",
+        "Shooter studios"
+      ],
+      [
+        "Value",
+        "Aim evidence and fair review"
+      ],
+      [
+        "Channels",
+        "Developer contacts and guides"
+      ],
+      [
+        "Relationships",
+        "Pilot help and support"
+      ],
+      [
+        "Revenue",
+        "Test monthly or usage prices"
+      ],
+      [
+        "Activities",
+        "Integration, analysis and review tools"
+      ],
+      [
+        "Resources",
+        "Labelled game data and technical skills"
+      ],
+      [
+        "Partners",
+        "Pilot studios and moderators"
+      ],
+      [
+        "Costs",
+        "Development, servers and support"
+      ]
+    ],
+    "items": [
+      "A limited free pilot comes before the paid offer"
+    ],
+    "notes": "The business model has nine parts. Shooter studios are our customers. The proposed value is useful aim evidence and fair review. We plan to reach studios through developer contacts and guides. We would help with integration and support. Revenue may come from monthly or usage prices after a free pilot. Our main costs include development, servers and support. These are working hypotheses.",
+    "hint": "Do not read every box. Explain customer, value, revenue and costs. No price has been confirmed.",
+    "transition": "We need practical tests before stronger business claims.",
+    "seconds": 45
+  },
+  {
+    "title": "Next tests",
+    "kind": "roadmap",
+    "source": "Proposed targets. We have not achieved these results.",
+    "steps": [
+      [
+        "01",
+        "Buyer interviews",
+        "At least 8 studio leads or moderators"
+      ],
+      [
+        "02",
+        "Pilot agreements",
+        "At least 3 studios with data and an owner"
+      ],
+      [
+        "03",
+        "Technical test",
+        "Measure correct and wrong alerts"
+      ],
+      [
+        "04",
+        "Review test",
+        "Target 20% less median review time"
+      ]
+    ],
+    "items": [
+      "No automatic bans during the pilot",
+      "Test paid offers after useful results and cost measurement"
+    ],
+    "notes": "We propose at least eight interviews with studio leads or moderators. We would continue if three studios offer concrete pilots with available data and a responsible person. We would test correct alerts and wrong alerts using separate test players. We also target twenty percent less median review time, with no worse decisions. These are future targets. We have not achieved them.",
+    "hint": "Stress \u201cpropose\u201d and \u201ctarget\u201d. The 20% is a review-time goal, not detection accuracy.",
+    "transition": "Finally, we state what the study can support.",
+    "seconds": 45
+  },
+  {
+    "title": "Conclusion",
+    "kind": "conclusion",
+    "source": "Sources: survey summaries, interview notes and course requirements.",
+    "items": [
+      "The evidence supports a focused pilot",
+      "Accuracy, wrong alerts and data control come first",
+      "Studio demand and payment remain untested",
+      "More participant evidence is needed for the course minimum"
+    ],
+    "notes": "Our study supports a focused pilot for SUB-CHECK. The main priorities are detection quality, fewer wrong alerts and control over game data. We still need to test studio demand, actual payment and technical performance. We also need more participant evidence to meet the course minimum. Thank you. We are ready for questions.",
+    "hint": "End with what you learned and what you will test. Avoid saying the product or business model is fully validated.",
+    "transition": "Questions and discussion.",
+    "seconds": 30
+  }
+]
